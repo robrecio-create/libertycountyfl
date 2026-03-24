@@ -1,12 +1,11 @@
 export const towns = [
   { name: 'Bristol', slug: 'bristol', businesses: 0 },
   { name: 'Hosford', slug: 'hosford', businesses: 0 },
-  { name: 'Telogia', slug: 'telogia', businesses: 0 },
   { name: 'Sumatra', slug: 'sumatra', businesses: 0 },
-  { name: 'Wilma', slug: 'wilma', businesses: 0 },
+  { name: 'Telogia', slug: 'telogia', businesses: 0 },
+  { name: 'Rock Bluff', slug: 'rock-bluff', businesses: 0 },
   { name: 'Estiffanulga', slug: 'estiffanulga', businesses: 0 },
 ];
-
 export const categories = [
   { name: 'Restaurants & Dining', slug: 'restaurants-dining', icon: '🍽️', count: 0 },
   { name: 'Shopping & Retail', slug: 'shopping-retail', icon: '🛍️', count: 0 },
@@ -27,7 +26,6 @@ export const categories = [
   { name: 'Accommodations', slug: 'accommodations', icon: '🏨', count: 0 },
   { name: 'Appliances & Rentals', slug: 'appliances-rentals', icon: '🔌', count: 0 },
 ];
-
 export const navLinks = [
   { label: 'Home', href: '/' },
   { label: 'Listings', href: '/listings/' },
